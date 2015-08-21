@@ -1,0 +1,28 @@
+{
+  "name": "html-meta-parser",
+  "version": "1.0.0",
+  "description": "stream-based parser for html meta tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcmonitor/html_meta_parser.git"
+  },
+  "keywords": [
+    "html",
+    "meta",
+    "parser"
+  ],
+  "author": "rcmonitor",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rcmonitor/html_meta_parser/issues"
+  },
+  "homepage": "https://github.com/rcmonitor/html_meta_parser",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
