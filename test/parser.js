@@ -16,7 +16,7 @@ describe('html meta parser test', function(){
 			var intOffset = 0;
 
 			oParser.on('readable', function(){
-				var data = oParser.read();
+				var data = this.read();
 
 				data.should.eql(arExpected[intOffset]);
 
